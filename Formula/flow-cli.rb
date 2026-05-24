@@ -10,8 +10,8 @@ class FlowCli < Formula
   #     ``v*`` tag push (canonical publication path).
   # Do not commit a real url/sha256 here; the workflow rewrites them
   # against the tag being released.
-  url "https://github.com/angleto/flow/archive/refs/tags/v2.0.10.tar.gz"
-  sha256 "da31410ca297bc49c82aad27480bb92f6288713c031f8f2353bd4111e5118549"
+  url "https://github.com/angleto/flow/archive/refs/tags/v2.0.11.tar.gz"
+  sha256 "87da44d06690e113e9467d2809571c4c92dd86a8bcaf5d3d0b6f4db4e541d06a"
   license "AGPL-3.0-or-later"
   head "https://github.com/angleto/flow.git", branch: "v2.0"
 
