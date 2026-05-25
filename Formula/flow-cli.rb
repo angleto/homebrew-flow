@@ -6,12 +6,12 @@ class FlowCli < Formula
   # NOTE: this file is a template. The url + sha256 below carry tag
   # and digest placeholders, resolved at release time by either:
   #   - ``bin/render-formula <version>`` (local smoke test), or
-  #   - the ``mirror-homebrew-tap`` GitHub Actions workflow on every
+  #   - the ``mirror-homebrew-flow`` GitHub Actions workflow on every
   #     ``v*`` tag push (canonical publication path).
   # Do not commit a real url/sha256 here; the workflow rewrites them
   # against the tag being released.
-  url "https://github.com/angleto/flow/archive/refs/tags/v2.0.22.tar.gz"
-  sha256 "c1ec29ac406cb271176b05af452e7c8aad26d0aea34541eba4ef399955c45b76"
+  url "https://github.com/angleto/flow/archive/refs/tags/v2.0.23.tar.gz"
+  sha256 "b64a484816cdfcd35c82df88d2defe6aea19d34eb030a4c36c9b26e3dcc4866f"
   license "AGPL-3.0-or-later"
   head "https://github.com/angleto/flow.git", branch: "v2.0"
 
